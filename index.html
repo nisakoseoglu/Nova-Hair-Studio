@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Nova Hair Studio - Profesyonel saç kesimi, renklendirme, bakım ve kişiye özel kuaför hizmetleri." name="description"/>
+<meta content="kuaför, hair studio, saç kesimi, saç boyama, keratin, ombre, balyaj, İstanbul" name="keywords"/>
+<meta content="Nova Hair Studio" name="author"/>
+
+<title>Nova Hair Studio | Premium Kuaför Salonu</title>
+
+<link href="images/logo.png" rel="icon" type="image/png"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<a href="#" onclick="goHome();return false;">
+<img alt="Nova Hair Studio" src="images/logo.png"/>
+</a>
+</div>
+
+<nav>
+<a href="#" id="homeLink" onclick="goHome();return false;">Ana Sayfa</a>
+<a href="#" id="discoverLink" onclick="showDiscover();return false;">Saçını Keşfet</a>
+<a href="#" id="salonLink" onclick="showSalon();return false;">Salon</a>
+<a href="#" id="galleryLink" onclick="showGallery();return false;">Galeri</a>
+<a href="#" id="contactLink" onclick="showContact();return false;">İletişim</a>
+
+<a class="btn-nav" href="#" onclick="showAppointmentPage();return false;">
+Randevu Al
+</a>
+</nav>
+
+<div class="menu-toggle" onclick="toggleMenu()">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+<div class="menu-overlay" onclick="toggleMenu()"></div>
+
+</header>
+
+
+<div id="homePage">
+
+<section class="hero">
+
+<div class="hero-left">
+
+<div class="hero-premium">
+NOVA HAIR STUDIO • İSTANBUL
+</div>
+
+<h1>
+Saçınıza Yakışan<br/>
+<span>Dokunuşu</span><br/>
+Keşfedin.
+</h1>
+
+<div class="hero-line"></div>
+
+<p>
+Modern kesim, renklendirme ve bakım uygulamalarıyla
+tarzınıza uygun görünümü birlikte oluşturuyoruz.
+</p>
+
+<div class="hero-buttons">
+
+<button class="hero-btn" onclick="showAppointmentPage()">
+Randevu Al
+</button>
+
+<button class="hero-btn-outline" onclick="showDiscover()">
+Saçını Keşfet
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="about hidden">
+
+<div class="about-container">
+
+<div class="about-title">
+
+<div class="section-badge">
+HAKKIMIZDA
+</div>
+
+<h2>
+Tarzınıza Uygun,<br/>
+<span>Size Özel.</span>
+</h2>
+
+<div class="gold-line"></div>
+
+<p>
+Nova Hair Studio'da kesim, renklendirme ve bakım hizmetlerini
+kişisel tarzınıza ve saçınızın ihtiyaçlarına göre uyguluyoruz.
+</p>
+
+</div>
+
+<div class="about-image">
+<img
+    alt="Nova Hair Studio saç tasarımı ve salon"
+    src="images/about-collage.png"
+/>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="why-us hidden">
+
+<div class="why-heading">
+
+<div class="section-badge">
+NEDEN NOVA
+</div>
+
+<h2>
+Her Detay <span>Size Göre.</span>
+</h2>
+
+<p>
+Nova deneyimini saçınızı tanıyarak başlatıyor,
+her adımı size özel planlıyoruz.
+</p>
+
+</div>
+
+
+<div class="nova-process">
+
+<div class="process-item">
+
+<span class="process-number">01</span>
+
+<div class="process-dot"></div>
+
+<h3>Danışmanlık</h3>
+
+<p>
+Saçınızı, tarzınızı ve beklentinizi birlikte değerlendiriyoruz.
+</p>
+
+</div>
+
+
+<div class="process-item">
+
+<span class="process-number">02</span>
+
+<div class="process-dot"></div>
+
+<h3>Uygulama</h3>
+
+<p>
+Size uygun teknik ve ürünlerle işlemi özenle uyguluyoruz.
+</p>
+
+</div>
+
+
+<div class="process-item">
+
+<span class="process-number">03</span>
+
+<div class="process-dot"></div>
+
+<h3>Son Dokunuş</h3>
+
+<p>
+Bakım ve şekillendirmeyle görünümünüzü tamamlıyoruz.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="reviews hidden">
+
+<div class="reviews-top">
+
+<span class="section-badge">
+MÜŞTERİ YORUMLARI
+</span>
+
+<span class="review-count">
+01 / 03
+</span>
+
+</div>
+
+
+<div class="review-content">
+
+<span class="review-quote">“</span>
+
+<p class="review-text">
+Saç rengim tam istediğim gibi oldu.
+Sonuçtan çok memnun kaldım.
+</p>
+
+
+<div class="review-footer">
+
+<div class="review-person">
+
+<strong>Elif K.</strong>
+
+<span>
+Renklendirme
+</span>
+
+</div>
+
+
+<div class="review-buttons">
+
+<button class="review-prev">
+←
+</button>
+
+<button class="review-next">
+→
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer class="footer">
+
+<div class="footer-container">
+
+
+<div class="footer-brand">
+
+<img
+    alt="Nova Hair Studio"
+    class="footer-logo"
+    src="images/logo.png"
+/>
+
+<p>
+Modern tasarım, profesyonel dokunuş, kusursuz görünüm.
+</p>
+
+</div>
+
+
+<div class="footer-links">
+
+<h3>
+Hızlı Menü
+</h3>
+
+<a href="#" onclick="goHome();return false;">
+Ana Sayfa
+</a>
+
+<a href="#" onclick="showDiscover();return false;">
+Saçını Keşfet
+</a>
+
+<a href="#" onclick="showSalon();return false;">
+Salon
+</a>
+
+<a href="#" onclick="showContact();return false;">
+İletişim
+</a>
+
+</div>
+
+
+<div class="footer-box">
+
+<h4>
+İletişim
+</h4>
+
+<p>
+📞 0555 555 55 55
+</p>
+
+<p>
+✉ info@novahairstudio.com
+</p>
+
+<p>
+📍 İstanbul
+</p>
+
+
+<div class="footer-social">
+
+<a href="javascript:void(0)">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+<a href="javascript:void(0)">
+<i class="fa-brands fa-facebook-f"></i>
+</a>
+
+<a href="javascript:void(0)">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+</div>
+
+
+<div class="page" id="discoverPage">
+
+<section class="discover-section">
+
+
+<div class="discover-intro">
+
+<span class="section-badge">
+SAÇINI KEŞFET
+</span>
+
+<h1>
+Sana Uygun Görünümü
+<span>Birlikte Bulalım.</span>
+</h1>
+
+<p>
+Saç yapın, tarzın ve istediğin değişim hakkında
+birkaç soruyu cevapla. Sana uygun renk, kesim
+ve bakım önerilerini keşfet.
+</p>
+
+<button
+    class="discover-start-btn"
+    onclick="startHairTest()"
+>
+Teste Başla
+
+<i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</div>
+
+
+<div class="hair-quiz" id="hairQuiz">
+
+<div class="quiz-progress">
+
+<span id="quizCount">
+01 / 05
+</span>
+
+<div class="progress-line">
+
+<div
+    class="progress-fill"
+    id="progressFill"
+></div>
+
+</div>
+
+</div>
+
+
+<span
+    class="quiz-small-title"
+    id="quizCategory"
+>
+SAÇ YAPIN
+</span>
+
+
+<h2 id="quizQuestion">
+Saç yapın nasıl?
+</h2>
+
+
+<p id="quizDescription">
+Sana daha uygun öneriler oluşturabilmemiz için
+saçının doğal yapısını seç.
+</p>
+
+
+<div
+    class="quiz-options"
+    id="quizOptions"
+></div>
+
+</div>
+
+
+<div
+    class="hair-result"
+    id="hairResult"
+>
+
+<div class="result-top">
+
+<span class="section-badge">
+TEST SONUCUN
+</span>
+
+<h2>
+Sana Özel
+<span>Nova Önerisi.</span>
+</h2>
+
+<p>
+Cevaplarına göre sana uygun olabilecek görünüm önerilerini hazırladık.
+</p>
+
+</div>
+
+
+<div class="result-main">
+
+<div class="result-feature">
+
+<span>
+ÖNERİLEN GÖRÜNÜM
+</span>
+
+<h3 id="resultLook"></h3>
+
+<p id="resultDescription"></p>
+
+</div>
+
+
+<div class="result-details">
+
+<div class="result-detail">
+
+<span>
+SAÇ YAPIN
+</span>
+
+<h4 id="resultHairType"></h4>
+
+</div>
+
+
+<div class="result-detail">
+
+<span>
+RENK ÖNERİSİ
+</span>
+
+<h4 id="resultColor"></h4>
+
+</div>
+
+
+<div class="result-detail">
+
+<span>
+KESİM ÖNERİSİ
+</span>
+
+<h4 id="resultCut"></h4>
+
+</div>
+
+
+<div class="result-detail">
+
+<span>
+BAKIM ÖNERİSİ
+</span>
+
+<h4 id="resultCare"></h4>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="result-palette">
+
+<span>
+RENK PALETİN
+</span>
+
+<div
+    class="color-palette"
+    id="colorPalette"
+></div>
+
+</div>
+
+
+<div class="result-buttons">
+
+<button
+    class="result-restart"
+    onclick="restartHairTest()"
+    type="button"
+>
+Testi Tekrarla
+</button>
+
+
+<button
+    class="result-appointment"
+    onclick="showAppointmentPage()"
+    type="button"
+>
+Randevu Al
+</button>
+
+</div>
+
+</div>
+
+
+<div class="discover-number">
+
+<span>
+5
+</span>
+
+<p>
+Kısa Soru
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div
+    class="page"
+    id="salonPage"
+>
+
+<section class="salon-section">
+
+
+<div class="salon-heading">
+
+<span class="section-badge">
+NOVA HAIR STUDIO
+</span>
+
+<h1>
+Kendinizi İyi Hissedeceğiniz
+<span>Bir Alan.</span>
+</h1>
+
+<p>
+Modern, sakin ve özenle tasarlanmış bir ortamda
+saçınıza özel bir deneyim sunuyoruz.
+</p>
+
+</div>
+
+
+<div class="salon-showcase">
+
+<div class="salon-image">
+
+<img
+    alt="Nova Hair Studio Salon"
+    src="images/salon-main.png"
+/>
+
+</div>
+
+
+<div class="salon-content">
+
+<span class="salon-small-title">
+NOVA DENEYİMİ
+</span>
+
+<h2>
+Her Detayda
+<span>Özen.</span>
+</h2>
+
+<p>
+Nova Hair Studio'da yalnızca saçınıza değil,
+kendinizi rahat hissedeceğiniz deneyime de önem veriyoruz.
+Modern salon atmosferimizi kişiye özel hizmet anlayışıyla
+bir araya getiriyoruz.
+</p>
+
+
+<div class="salon-features">
+
+<div class="salon-feature">
+
+<span>
+01
+</span>
+
+<div>
+
+<h3>
+Kişiye Özel
+</h3>
+
+<p>
+Saçınızın yapısına ve tarzınıza uygun uygulamalar.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="salon-feature">
+
+<span>
+02
+</span>
+
+<div>
+
+<h3>
+Profesyonel Bakım
+</h3>
+
+<p>
+Saçınızın ihtiyacına uygun ürün ve uygulamalar.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="salon-feature">
+
+<span>
+03
+</span>
+
+<div>
+
+<h3>
+Rahat Atmosfer
+</h3>
+
+<p>
+Sade, modern ve konforlu bir salon deneyimi.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div
+    class="gallery-page"
+    id="galleryPage"
+>
+
+<section class="gallery-section">
+
+
+<div class="gallery-heading">
+
+<span class="section-badge">
+ÇALIŞMALARIMIZ
+</span>
+
+<h1>
+Saçınıza Özel
+<span>Dokunuşlar.</span>
+</h1>
+
+<p>
+Kesimden renklendirmeye, Nova'dan çıkan görünümlerden seçkiler.
+</p>
+
+</div>
+
+
+<div class="gallery-filters">
+
+<button
+    class="gallery-filter active"
+    data-filter="all"
+>
+Tümü
+</button>
+
+<button
+    class="gallery-filter"
+    data-filter="color"
+>
+Renklendirme
+</button>
+
+<button
+    class="gallery-filter"
+    data-filter="cut"
+>
+Kesim
+</button>
+
+<button
+    class="gallery-filter"
+    data-filter="care"
+>
+Bakım
+</button>
+
+<button
+    class="gallery-filter"
+    data-filter="styling"
+>
+Stil
+</button>
+
+</div>
+
+
+<div class="gallery-grid">
+
+
+<div
+    class="gallery-item"
+    data-category="color"
+>
+
+<img
+    alt="Saç renklendirme"
+    src="images/gallery-1.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+RENKLENDİRME
+</span>
+
+<h3>
+Balayage
+</h3>
+
+</div>
+
+</div>
+
+
+<div
+    class="gallery-item"
+    data-category="cut"
+>
+
+<img
+    alt="Saç kesimi"
+    src="images/gallery-2.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+KESİM
+</span>
+
+<h3>
+Modern Kesim
+</h3>
+
+</div>
+
+</div>
+
+
+<div
+    class="gallery-item"
+    data-category="styling"
+>
+
+<img
+    alt="Saç şekillendirme"
+    src="images/gallery-3.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+STİL
+</span>
+
+<h3>
+Dalgalı Görünüm
+</h3>
+
+</div>
+
+</div>
+
+
+<div
+    class="gallery-item"
+    data-category="color"
+>
+
+<img
+    alt="Saç renklendirme"
+    src="images/gallery-4.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+RENKLENDİRME
+</span>
+
+<h3>
+Doğal Geçişler
+</h3>
+
+</div>
+
+</div>
+
+
+<div
+    class="gallery-item"
+    data-category="care"
+>
+
+<img
+    alt="Saç bakımı"
+    src="images/gallery-5.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+BAKIM
+</span>
+
+<h3>
+Parlaklık Bakımı
+</h3>
+
+</div>
+
+</div>
+
+
+<div
+    class="gallery-item"
+    data-category="styling"
+>
+
+<img
+    alt="Saç şekillendirme"
+    src="images/gallery-6.png"
+/>
+
+<div class="gallery-overlay">
+
+<span>
+STYLING
+</span>
+
+<h3>
+Özel Gün
+</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div
+    class="gallery-modal"
+    id="galleryModal"
+>
+
+<button
+    class="gallery-close"
+    type="button"
+>
+×
+</button>
+
+<button
+    class="gallery-arrow gallery-prev"
+    type="button"
+>
+←
+</button>
+
+<img
+    alt="Galeri görseli"
+    id="galleryModalImage"
+    src=""
+/>
+
+<button
+    class="gallery-arrow gallery-next"
+    type="button"
+>
+→
+</button>
+
+</div>
+
+</div>
+
+
+<div
+    class="success-popup"
+    id="successPopup"
+>
+
+<div class="success-box">
+
+<div class="success-icon">
+<i class="fa-solid fa-check"></i>
+</div>
+
+<span class="success-small-title">
+RANDEVU TALEBİNİZ ALINDI
+</span>
+
+<h2>
+Teşekkürler,
+<span>talebiniz bize ulaştı.</span>
+</h2>
+
+<p>
+Ekibimiz uygunluğu kontrol ettikten sonra
+sizinle iletişime geçerek randevunuzu onaylayacak.
+</p>
+
+<button
+    onclick="closeSuccess()"
+    type="button"
+>
+Tamam
+</button>
+
+</div>
+
+</div>
+
+
+<div
+    class="page"
+    id="contactPage"
+>
+
+<section class="contact-section">
+
+
+<div class="contact-heading">
+
+<span class="section-badge">
+İLETİŞİM
+</span>
+
+<h1>
+Nova ile
+<span>İletişime Geçin.</span>
+</h1>
+
+<p>
+Randevu, hizmetlerimiz veya merak ettiğiniz diğer konular
+için bizimle iletişime geçebilirsiniz.
+</p>
+
+</div>
+
+
+<div class="contact-layout">
+
+
+<div class="contact-details">
+
+
+<div class="contact-row">
+
+<span class="contact-number">
+01
+</span>
+
+<div>
+
+<span class="contact-label">
+TELEFON
+</span>
+
+<h3>
+0555 555 55 55
+</h3>
+
+<p>
+Bizi arayarak bilgi alabilirsiniz.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<span class="contact-number">
+02
+</span>
+
+<div>
+
+<span class="contact-label">
+E-POSTA
+</span>
+
+<h3>
+info@novahairstudio.com
+</h3>
+
+<p>
+Sorularınız için bize yazabilirsiniz.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<span class="contact-number">
+03
+</span>
+
+<div>
+
+<span class="contact-label">
+SALON
+</span>
+
+<h3>
+İstanbul
+</h3>
+
+<p>
+Nova Hair Studio
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<span class="contact-number">
+04
+</span>
+
+<div>
+
+<span class="contact-label">
+ÇALIŞMA SAATLERİ
+</span>
+
+<h3>
+Pazartesi — Cumartesi
+</h3>
+
+<p>
+09:00 — 20:00 · Pazar Kapalı
+</p>
+
+</div>
+
+</div>
+
+
+<button class="contact-whatsapp">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+WhatsApp'tan Ulaşın
+
+</button>
+
+</div>
+
+
+<div class="contact-map-new">
+
+<iframe
+    loading="lazy"
+    src="https://www.google.com/maps?q=Istanbul&output=embed"
+>
+</iframe>
+
+
+<div class="map-info">
+
+<div>
+
+<span>
+NOVA HAIR STUDIO
+</span>
+
+<h3>
+İstanbul
+</h3>
+
+</div>
+
+<i class="fa-solid fa-location-dot"></i>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div
+    class="page"
+    id="appointmentPage"
+>
+
+<section class="appointment-new">
+
+
+<div class="appointment-heading">
+
+<span class="section-badge">
+ONLINE RANDEVU
+</span>
+
+<h1>
+Size Uygun Zamanı
+<span>Birlikte Planlayalım.</span>
+</h1>
+
+<p>
+Hizmetinizi, gününüzü ve saatinizi seçin.
+Talebinizin ardından sizinle iletişime geçerek
+randevunuzu onaylayacağız.
+</p>
+
+</div>
+
+
+<div class="appointment-layout">
+
+
+<div class="appointment-side">
+
+<span class="appointment-small-title">
+NOVA HAIR STUDIO
+</span>
+
+<h2>
+Randevunuzdan
+<span>Önce.</span>
+</h2>
+
+<p>
+Randevu talebiniz bize ulaştıktan sonra
+ekibimiz sizinle iletişime geçerek uygunluğu
+kontrol eder ve randevunuzu kesinleştirir.
+</p>
+
+
+<div class="appointment-side-info">
+
+
+<div>
+
+<span>
+01
+</span>
+
+<div>
+
+<h3>
+Hizmetinizi Seçin
+</h3>
+
+<p>
+Yaptırmak istediğiniz işlemi belirtin.
+</p>
+
+</div>
+
+</div>
+
+
+<div>
+
+<span>
+02
+</span>
+
+<div>
+
+<h3>
+Tarih ve Saat
+</h3>
+
+<p>
+Size uygun gün ve saat aralığını seçin.
+</p>
+
+</div>
+
+</div>
+
+
+<div>
+
+<span>
+03
+</span>
+
+<div>
+
+<h3>
+Onay
+</h3>
+
+<p>
+Ekibimiz sizinle iletişime geçerek randevuyu onaylar.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<form
+    class="appointment-form-new"
+    id="appointmentFormPage"
+    onsubmit="createAppointment(event)"
+>
+
+
+<div class="form-heading">
+
+<span>
+RANDEVU BİLGİLERİ
+</span>
+
+<h2>
+Bilgilerinizi Girin
+</h2>
+
+</div>
+
+
+<div class="form-row">
+
+
+<div class="form-field">
+
+<label>
+Ad Soyad
+</label>
+
+<input
+    placeholder="Adınız Soyadınız"
+    required
+    type="text"
+/>
+
+</div>
+
+
+<div class="form-field">
+
+<label>
+Telefon
+</label>
+
+<input
+    pattern="[0-9]{10,11}"
+    placeholder="05XX XXX XX XX"
+    required
+    type="tel"
+/>
+
+</div>
+
+</div>
+
+
+<div class="form-field">
+
+<label>
+E-posta
+</label>
+
+<input
+    placeholder="ornek@email.com"
+    type="email"
+/>
+
+</div>
+
+
+<div class="form-field">
+
+<label>
+Hizmet
+</label>
+
+<select required>
+
+<option
+    disabled
+    selected
+    value=""
+>
+Hizmet Seçiniz
+</option>
+
+<option>
+Saç Kesimi
+</option>
+
+<option>
+Saç Boyama
+</option>
+
+<option>
+Ombre / Balyaj
+</option>
+
+<option>
+Saç Bakımı
+</option>
+
+<option>
+Keratin Bakımı
+</option>
+
+<option>
+Şekillendirme
+</option>
+
+<option>
+Renk Danışmanlığı
+</option>
+
+</select>
+
+</div>
+
+
+<div class="form-row">
+
+
+<div class="form-field">
+
+<label>
+Tarih
+</label>
+
+<input
+    required
+    type="date"
+/>
+
+</div>
+
+
+<div class="form-field">
+
+<label>
+Saat
+</label>
+
+<select required>
+
+<option
+    disabled
+    selected
+    value=""
+>
+Saat Seçiniz
+</option>
+
+<option>09:00</option>
+<option>10:00</option>
+<option>11:00</option>
+<option>12:00</option>
+<option>13:00</option>
+<option>14:00</option>
+<option>15:00</option>
+<option>16:00</option>
+<option>17:00</option>
+<option>18:00</option>
+<option>19:00</option>
+
+</select>
+
+</div>
+
+</div>
+
+
+<div class="form-field">
+
+<label>
+Notunuz
+</label>
+
+<textarea
+    placeholder="Eklemek istediğiniz bir not varsa yazabilirsiniz..."
+></textarea>
+
+</div>
+
+
+<div class="appointment-notice">
+
+<i class="fa-solid fa-circle-info"></i>
+
+<p>
+Bu form bir randevu talebidir.
+Randevunuz ekibimiz tarafından onaylandıktan
+sonra kesinleşir.
+</p>
+
+</div>
+
+
+<button
+    class="appointment-submit"
+    type="submit"
+>
+
+Randevu Talebi Oluştur
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</div>
+
+
+<button
+    id="topBtn"
+    onclick="scrollToTop()"
+>
+
+<i class="fa-solid fa-chevron-up"></i>
+
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
